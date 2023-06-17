@@ -16,7 +16,7 @@ const[open,setopen]=useState(false);
     <div class=' shadow-md w-full sticky top-0 left-0'>
       <div class='md:flex items-center justify-between bg-white py-4 md:px-10 px-7'>
         <div class=' flex font-bold text-2xl cursor-pointerflex items-center font-[Poppins] text-gray-800'>
-       <img class='h-[40px] m-[4px]' src={download} alt=''/> Google Developer Students Club
+       <img class='h-[40px] m-[4px]' src={download} alt=''/> <h1 class=''>Google Developer Students Club</h1>
       </div>
 
       <div onClick={()=> setopen(!open)} class='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>
